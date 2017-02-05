@@ -1,0 +1,25 @@
+{
+  "name": "frontend-starter",
+  "description": "Boilerplate for new frontend projects",
+  "authors": [
+    "Sébastien Pereda <sebastien.pereda@gmail.com> (http://www.bastoche.fr)"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
+    "holderjs": "^2.9.4"
+  },
+  "overrides":{
+    "bootstrap":{
+      "normalize":{
+        "fonts": ["*.eot", "*.svg", "*.ttf", "*.woff", "*.woff2"]
+      }
+    }
+  }
+}
